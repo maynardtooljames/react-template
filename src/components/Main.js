@@ -7,8 +7,8 @@ export default class Main extends Component {
   render() {
     return (
       <Container text>
-        <Header as="h1" textAlign="center">
-          <Link to="/">Title</Link>
+        <Header as='h1' textAlign='center'>
+          <Link to='/'>Title</Link>
           <Home />
         </Header>
       </Container>
